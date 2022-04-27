@@ -46,7 +46,6 @@
 		</div>
 	</div>
 	{#if ready}
-		{maximized}
 		<slot />
 	{/if}
 </div>
@@ -77,7 +76,6 @@
 		position: relative;
 		z-index: 100;
 		flex: 1;
-		background-color: rgba(255, 255, 255, 0.041);
 	}
 	#titlebar .buttons {
 		width: 200px;

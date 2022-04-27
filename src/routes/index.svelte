@@ -14,17 +14,7 @@
 </script>
 
 <main>
-	<Logo />
-
-	<h1>Hello Electron!</h1>
-
-	<Counter id="0" />
-
-	{#if desktop}
-		<br />
-		<br />
-		{desktop}
-	{/if}
+	<sidebar />
 </main>
 
 <style>
